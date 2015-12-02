@@ -2,6 +2,7 @@
 Website para divulgar eventos, workshops entre tantas outras sobre o mundo opensource e a vida ativa de TI em sancharles city!
 
 #sessões do website
+ - testando integração com o SLACK + BitBUCKET
  - quem somos?
  - weekly, assina!
  - meetup, faça parte ;)
