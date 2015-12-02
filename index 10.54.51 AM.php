@@ -6,7 +6,7 @@
     <section id="about" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-12">
-                <h2>Sobre</h2>
+                <h2>About</h2>
                 <p>
                   Olá, antes de tudo, agradecemos pela sua visita aqui  no <a href="#">Opensanca</a> o objetivo nosso é trazer a cultura dos meetup e realizar reuniões e workshop periodicamente
                   em São Carlos, buscamos discutir sobre desenvolvimento Open Source, e esperamos que esses encontros sejam além de tecnologias, esperamos que ele forneça apoio e <em>start</em> em diversos segmentos da área de tecnologia da informação . <br> <br>
