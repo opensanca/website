@@ -185,7 +185,6 @@
 
                 <p>Foi assim que conhecemos a <a href="http://www.tramposaec.com.br/" target="_blank">Trampo S/A</a> um Coworking daqui de São Carlos que ofereceu uma parceria para nós,
                    até conseguirmos nos estruturar financeiramente. Caso, você procure por  um espaço para começar seu job, precisa de uma sala para fazer um evento ou uma reunião informal, super recomendamos a  TRAMPO S/A. ;)
-
                 </p>
             </div>
         </div>
@@ -198,6 +197,31 @@
              uma parceria bem sólida e com vantagens. <br>
                <a href="#" class="btn btn-default btn-lg">Quero Patrocinar</a>
             </p>
+          </div>
+
+
+            </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <h2>Apoio</h2>
+              <div class="col-md-3 col-centered partner-logo">
+                  <a href="http://www.casadocodigo.com.br" title="Ir para Casa do Código" target="_blank">
+                    <figure>
+                        <img src="/img/cdc-logo-novo-180.png" title="Casa do Código" alt="Logo Casa do Código"/>
+                        <figcaption>Casa do Código é uma editora feita de programadores para programadores. Android, iOS, Startups, JavaScript, jQuery, HTML, Agile, Java e mais.</figcaption>
+                    </figure>
+                  </a>
+              </div>
+              <div class="col-md-3 col-centered partner-logo">
+                  <a href="http://monitoratec.com.br/" title="Ir para Monitora" target="_blank">
+                    <figure>
+                        <img src="/img/logo-monitora.png" title="Monitora" alt="Logo Monitora"/>
+                        <figcaption>Empresa localizada em São Carlos, com mais de 60 colaboradores, todos focados em encontrar soluções para a sua empresa. Nosso desafio é criar, inovar e atender!</figcaption>
+                    </figure>
+                  </a>
+              </div>
           </div>
 
 

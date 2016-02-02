@@ -414,3 +414,50 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
+
+.col-centered {
+    display: inline-block;
+    float: none;
+    margin: 0 auto;
+}
+
+/** Partners **/
+#partner .row {
+  margin-bottom: 30px;
+}
+
+.partner-logo {
+  position: relative;
+  padding-bottom: 60px;
+}
+
+.partner-logo figcaption {
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+  top: 0;
+  opacity: 0;
+  position: absolute;
+}
+
+@media(min-width:1024px) {
+
+  .partner-logo img {
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  /* hover effects */
+  .partner-logo:hover img {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+  }
+
+  .partner-logo:hover figcaption {
+    opacity: 1;
+    top: 60px;
+  }
+}
