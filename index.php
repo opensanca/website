@@ -51,68 +51,6 @@
         </div>
     </section>
 
-    <section id="events" class="content-section text-center">
-        <div class="download-section">
-            <div class="container">
-                <div class="col-lg-12">
-                    <h2>Eventos</h2>
-                    <p>Bom, já falamos qual é a nossa proposta, agora vamos ao que interessa, nossos encontros quinzenais! </p>
-                  </div>
-
-              <div class="row">
-                <div class="col-md-6">
-                  <h2>Workshop Angular.JS</h2>
-                  <p>Descrição:  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
-                  Palestrante:  <a href="#" target="_blank">Guilherme Cabrini</a> <br>
-                  Slides:    <a href="">vai ser</a> <br>
-                  Data: 12/09
-                  </p>
-                </div>
-                <div class="col-md-6">
-                    <img src="" alt="" class="img-responsive" />
-                    <img class="img-thumbnail" src="http://placehold.it/600x400" alt="">
-                </div>
-
-              </div>
-
-              <div class="row">
-                <div class="col-md-6">
-                  <h2>Workshop Python</h2>
-                  <p>Descrição:"A ideia é realmente apresentar a linguagem, sem focar em nenhuma biblioteca de terceiros. Começar de um "Hello, World!", depois apresentar objetos e classes, tipos padrões do Python e etc. Depois desse overview básico, começar a mostrar coisas legais e mais avançadas da linguagem como list comprehensions, decoradores, geradores/iteradores, gerenciadores de contexto, métodos mágicos dos objetos e etc."
-                  <br>
-                  Palestrante:  <a href="https://www.linkedin.com/in/thiagobellini" target="_blank">Thiago Bellini </a> <br>
-                  Slides:    <a href="https://speakerdeck.com/opensanca/workshop-de-python" target="_blank">SpeakerDeck</a> <br>
-                  </p>
-                </div>
-                <div class="col-md-6">
-                    <img src="img/eflyer-python.jpeg" alt="" class="img-responsive" />
-                </div>
-
-              </div>
-
-                <div class="row">
-                  <div class="col-md-6">
-                    <h2>Workshop Meteor.JS</h2>
-                    <p>Descrição: A discussão revisita a história da computação e culmina no inevitável alvorecer das Web Apps como principal meio de distribuição de software da atualidade.
-                      Passo a passo trataremos porque o Meteor é um framework cujo design já resolve as principais dificuldades dessa nova geração de aplicações.
-                      Faremos um Hands On dos primeiros passos com o framework desenvolvendo, em poucos minutos, uma ferramenta colaborativa realtime de solicitação de perguntas com votação que usaremos ao longo do próprio workshop para elencar as dúvidas dos presentes.
-
-
-                    <br>
-                    Palestrante:  <a href="https://br.linkedin.com/in/paulohecht/pt" target="_blank">Paulo Hetch </a> <br>
-                    Slides:    <a href="http://www.slideshare.net/paulohecht/meteor-workshop-51176301">SlideShare</a> <br>
-                    Codigo-Fonte: <a href="https://github.com/opensanca/workshop-meteor" target="_blank">GitHub Meteor</a> <br>
-                    </p>
-                  </div>
-                  <div class="col-md-6">
-                      <img src="img/eflyer-meteorjs.jpeg" alt="" class="img-responsive" />
-                  </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section id="weekly" class="content-section text-center">
       <div class="container">
         <div class="row">

@@ -52,19 +52,19 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a href="http://www.meetup.com/opensanca/" target="_blank">Eventos</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#events">Eventos</a>
+                        <a href="https://opensanca.wordpress.com/" target="_blank" >Blog</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#projects">Projetos</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#partner">Parceiros</a>
-                    </li>
-                    <li>
-                        <a href="https://opensanca.wordpress.com/" target="_blank" >Blog</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contato</a>
