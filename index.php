@@ -144,24 +144,33 @@
         <div class="row">
           <div class="col-md-12">
             <h2>Apoio</h2>
-              <div class="col-md-3 col-centered partner-logo">
-                  <a href="http://www.casadocodigo.com.br" title="Ir para Casa do Código" target="_blank">
-                    <figure>
-                        <img src="/img/cdc-logo-novo-180.png" title="Casa do Código" alt="Logo Casa do Código"/>
-                        <figcaption>Casa do Código é uma editora feita de programadores para programadores. Android, iOS, Startups, JavaScript, jQuery, HTML, Agile, Java e mais.</figcaption>
-                    </figure>
-                  </a>
-              </div>
-              <div class="col-md-3 col-centered partner-logo">
-                  <a href="http://monitoratec.com.br/" title="Ir para Monitora" target="_blank">
-                    <figure>
-                        <img src="/img/logo-monitora.png" title="Monitora" alt="Logo Monitora"/>
-                        <figcaption>Empresa localizada em São Carlos, com mais de 60 colaboradores, todos focados em encontrar soluções para a sua empresa. Nosso desafio é criar, inovar e atender!</figcaption>
-                    </figure>
-                  </a>
-              </div>
-          </div>
+                <div class="col-md-3 col-centered partner-logo">
+                    <a href="http://monitoratec.com.br/" title="Ir para Monitora" target="_blank">
+                      <figure>
+                          <img src="/img/logo-monitora.png" title="Monitora" alt="Logo Monitora"/>
+                          <figcaption>Empresa localizada em São Carlos, com mais de 60 colaboradores, todos focados em encontrar soluções para a sua empresa. Nosso desafio é criar, inovar e atender!</figcaption>
+                      </figure>
+                    </a>
+                </div>
 
+                <div class="col-md-3 col-centered partner-logo">
+                    <a href="http://www.casadocodigo.com.br" title="Ir para Casa do Código" target="_blank">
+                      <figure>
+                          <img src="/img/cdc-logo-novo-180.png" title="Casa do Código" alt="Logo Casa do Código"/>
+                          <figcaption>Casa do Código é uma editora feita de programadores para programadores. Android, iOS, Startups, JavaScript, jQuery, HTML, Agile, Java e mais.</figcaption>
+                      </figure>
+                    </a>
+                </div>
+
+                <div class="col-md-3 col-centered partner-logo">
+                    <a href="http://www.s2it.com.br" title="Ir para S2it" target="_blank">
+                      <figure>
+                          <img src="/img/logo-s2it.png" title="S2it" alt="Logo S2it"/>
+                          <figcaption>Somos uma empresa formada por mais de duzentas pessoas inquietas e comprometidas, incessantes na busca pela inovação e tecnologia. Aqui o 'nós' sempre prevalece sobre o 'eu', pois somos apaixonados por pessoas, movidos pela tecnologia e inspirados pela inovação. Vem com a gente! ;)</figcaption>
+                      </figure>
+                    </a>
+                </div>
+          </div>
 
             </div>
         </div>

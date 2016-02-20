@@ -461,3 +461,10 @@ body {
     top: 60px;
   }
 }
+
+@media(max-width: 767px) {
+  .partner-logo {
+    display: block;
+    float: none;
+  }
+}
