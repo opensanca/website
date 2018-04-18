@@ -1,7 +1,7 @@
 <!-- Footer -->
 <footer>
     <div class="container text-center">
-        <p>Feito com <i class="fa fa-heart"></i> opensanca 2017</p>
+        <p>Feito com <i class="fa fa-heart"></i> opensanca <?php echo date("Y"); ?></p>
     </div>
 </footer>
 
