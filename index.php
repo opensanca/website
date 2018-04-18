@@ -119,11 +119,26 @@
               </figure>
             </a>
         </div>
+      </div>
 
-       
+      <div class="row">
+        <div class="col-md-4 col-centered partner-logo">
+            <a href="http://ft.ventures" title="Ir para Fast Track" target="_blank">
+              <figure>
+                  <img src="/img/logo-fasttrack.png" width="235"  title="Fast Track" alt="Logo Fast Track"/>
+                  <figcaption>Somos uma empresa focada em investir capital financeiro, know-how e relacionamento para desenvolver empresas digitais e modelos de negócios escaláveis.</figcaption>
+              </figure>
+            </a>
+        </div>
 
-     
-
+        <div class="col-md-4 col-centered partner-logo">
+            <a href="https://www.serasaexperian.com.br" title="Ir para Serasa Experian" target="_blank">
+              <figure>
+                  <img src="/img/logo-serasa.png" width="235" title="Serasa Experian" alt="Logo Serasa Experian"/>
+                  <figcaption>Na Serasa Experian, desvendamos o poder dos dados para que consumidores e empresas ampliem oportunidades.</figcaption>
+              </figure>
+            </a>
+        </div>
       </div>
     </div>
 </section>
