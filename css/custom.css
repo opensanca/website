@@ -475,7 +475,7 @@ body {
 
   .partner-logo:hover figcaption {
     opacity: 1;
-    top: 60px;
+    top: 60%;
   }
 
 }
