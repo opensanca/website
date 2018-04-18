@@ -32,6 +32,10 @@ p {
     line-height: 1.5;
 }
 
+table {
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
 @media(min-width:768px) {
     p {
         margin: 0 0 35px;
@@ -56,7 +60,6 @@ a:focus {
 .light {
     font-weight: 400;
 }
-
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
@@ -275,7 +278,7 @@ a:focus {
 
 
 #projects {
-  background:#1abc9c;
+  background:#4aa3df;
   width: 100vw;
   padding: 50px 0;
   color: #fff;
@@ -297,6 +300,11 @@ a:focus {
   color:#fff;
 }
 
+#weekly img {
+    border: 3px solid #eee;
+    margin-bottom: 7px;
+  }
+
 #weekly p{
   margin: 0 0 35px;
 font-size: 20px;
@@ -312,6 +320,15 @@ line-height: 1.6;
   padding: 50px 0;
   color:#22313F;
 }
+
+#parceiro{
+  background:#34495e;
+  width: 100vw;
+  padding: 50px 0;
+  color:#22313F;
+}
+
+#parceiro h2{ color:#fff;}
 
 #meetup p{text-align: justify;}
 
@@ -458,8 +475,9 @@ body {
 
   .partner-logo:hover figcaption {
     opacity: 1;
-    top: 60px;
+    top: 60%;
   }
+
 }
 
 @media(max-width: 767px) {
