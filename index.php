@@ -187,7 +187,7 @@
            <div class="row">
              <div class="col-md-offset-1 col-md-3">
                <img src="img/guilherme_cabrini.jpg" class="img-responsive img-circle" />
-               <h5>Guilherme Cabrini @Entelgy</h5>
+               <h5>Guilherme Cabrini @Exactaworks</h5>
                    <span class="input-group-btn">
                     <button class="btn btn-default btn-green" type="button"> <a href="https://br.linkedin.com/in/guilherme-cabrini-da-silva-ab2a5089" target="_blank"> Who? </a></button>
                   </span>
