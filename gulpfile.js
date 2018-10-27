@@ -42,5 +42,8 @@ gulpStatic({
     },{
       input: './src/CNAME',
       output: './dist'
-    }]
+    }],
+    server: {
+      indexPath: '/index.html'
+    }
 });
