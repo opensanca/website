@@ -432,7 +432,7 @@
 
 <!-- Footer -->
 <footer>
-    <div class="container text-center">
+    <div  id="openFooter" class="container text-center">
         <p>Feito com <i class="fa fa-heart"></i> opensanca ???????</p>
     </div>
 </footer>
@@ -448,6 +448,13 @@
 <!-- Custom Theme JavaScript -->
 <script src="js/custom.js"></script>
 <script async defer src="http://slack-opensanca.herokuapp.com/slackin.js"></script>
+<script>
+    $( document ).ready(function() {
+      let today = new Date();
+      let year = today.getUTCFullYear();
+      document.getElementById('openFooter').innerHTML = '<p>Feito com <i class="fa fa-heart"></i> opensanca '+ year +'</p>';
+    });
+</script>
 
 
 </body>
