@@ -39,5 +39,8 @@ gulpStatic({
     },{
       input: './src/js/**/*',
       output: './dist/assets/js'
+    },{
+      input: './src/CNAME',
+      output: './dist'
     }]
 });
