@@ -1,19 +1,43 @@
-'use strict';
+const gulpStatic = require('gulp-static-gen');
 
-var gulp = require( 'gulp' );
-var connect = require( 'gulp-connect' );
-var files = [ 'index.html', 'css/custon.css', 'js/custon.js' ];
-
-gulp.task( 'files', function() {
-  gulp.src( files ).pipe( connect.reload() );
+gulpStatic({
+    css: {
+      input: './src/sass/mains.sass',
+      output: './dist/assets/css',
+      watch: './src/sass/**/*',
+    },
+    hbs: {
+      input: './src/templates/index.hbs',
+      output: {
+        name: 'index.html',
+        dir: './dist'
+      },
+      batch : ['./src/templates/partials'],
+      watch : './src/templates/**/*',
+    },
+    img: {
+      input: './src/img/**/*',
+      output: './dist/assets/img',
+      config: {
+          interlaced: true,
+          progressive: true,
+          optimizationLevel: 5,
+          svgoPlugins: [{removeViewBox: true}]
+      }
+    },
+    scripts: {
+      input: './src/js/index.js',
+      output: './dist/assets/js/',
+      watch: './src/js/**/*',
+    },
+    move: [{
+        input: './src/css/**/*',
+        output: './dist/assets/css'
+    },{
+      input: './src/fonts/**/*',
+      output: './dist/assets/fonts'
+    },{
+      input: './src/js/**/*',
+      output: './dist/assets/js'
+    }]
 });
-
-gulp.task( 'watch', function() {
-  gulp.watch( files, [ 'files' ]);
-});
-
-gulp.task( 'connect', function() {
-  connect.server({ livereload: true });
-});
-
-gulp.task('default', [ 'connect', 'watch' ]);

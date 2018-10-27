@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+  - '10'
+install:
+  - npm install
+script:
+  - npm run build
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token:
+    secure: NcW4YZX+fefhAIamrjVZbbJzjrFiqqk4B53tdh2+ETtu8NMZ79x6gpYOK2anVpaZkRjhCXAz2xX5QAhk7cVViXBIyou2HH6vJyj/MOpQ1l73uIeOl4cKxtO3TAzkSHZx7JSfniXI3P5lHkGAYKnFkxHsiJsSJmP2eECECP7eX1Lsh4zWy3g4/p4VSPyPE+zuBtiviBAPA5a+iTrJ2g3GSUx06v5MNcnzFwl4hms6gBKaMH2NT88AeWjXR/CMwlwsj84rAPSVXRjSfZ7tLfkCWGp7UCfiozKX/KQheGyswoslpBIyVWDTdEe8meW9/Z95/VFBIakqSi1/VbuF80Ge6Mm1nWmE9vHRwsRt4hx0BzoKvgtzTdDDlbdY4/FYuRUA82yS21vIKjJqQgL37QGdzkCnk32UmKd3Dh45NMzNctLN5T/ePHFxqFw038hmZpnME6bd4rd+A5Wv6BAAL4PXuvkBkGkwvCigu7jrf3VinwZQkY6zsLHfXh0Rwh/jxtR1bQsY2T3Bims8HVUmuQtLFyv51WOiJUGeR9RHm/nRfw2k/wmKrrmzLxlCma4GwFfgrxndhOsFElI45mlxL8lyVZs/Oi+biT9IvSYfZ9EJF8DBFBGlvq+h86mrCXxTA+asl79Yk9nCg/PlDv4Ddn+WsjETuNaQzI8KXJJIiiihwOI=
+  keep-history: true
+  local-dir: dist
+  on:
+    branch: master
