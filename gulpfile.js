@@ -42,6 +42,9 @@ gulpStatic({
     },{
       input: './src/CNAME',
       output: './dist'
+    },{
+      input: './src/_github-challenge-opensanca.opensanca.com.br',
+      output: './dist'
     }],
     server: {
       indexPath: '/index.html'
