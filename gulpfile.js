@@ -2,16 +2,19 @@ const gulpStatic = require('gulp-static-gen');
 
 gulpStatic({
     css: {
-      input: './src/sass/mains.sass',
+      input: './src/sass/main.sass',
       output: './dist/assets/css',
       watch: './src/sass/**/*',
     },
     hbs: {
-      input: './src/templates/index.hbs',
-      output: {
-        name: 'index.html',
-        dir: './dist'
-      },
+      multiple: [{
+        data: require('./src/data.json'),
+        input: './src/templates/index.hbs',
+        output: {
+          name: 'index.html',
+          dir: './dist',
+        }
+      }],
       batch : ['./src/templates/partials'],
       watch : './src/templates/**/*',
     },
