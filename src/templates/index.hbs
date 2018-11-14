@@ -444,6 +444,8 @@
 <!-- Custom Theme JavaScript -->
 <script src="/assets/js/custom.js"></script>
 <script async defer src="http://slack-opensanca.herokuapp.com/slackin.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-98998566-2"></script>
 <script>
     $( document ).ready(function() {
       let today = new Date();
@@ -451,8 +453,13 @@
 
       document.getElementById('openFooter').innerHTML = '<p>Feito com <i class="fa fa-heart"></i> opensanca '+ year +'</p>';
     });
-</script>
 
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-98998566-2');
+</script>
 </body>
 
 </html>
