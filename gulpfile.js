@@ -48,6 +48,9 @@ gulpStatic({
     },{
       input: './src/_github-challenge-opensanca.opensanca.com.br.txt',
       output: './dist'
+    },{
+      input: './src/google311ad56e2894319a.html',
+      output: './dist'
     }],
     server: {
       indexPath: '/index.html'
