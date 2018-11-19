@@ -486,3 +486,17 @@ body {
     float: none;
   }
 }
+
+#crowd{
+  background:#00b300;
+  width: 100vw;
+  height: auto;
+  padding: 30px 0;
+  color:#fff;
+}
+
+#crowd .btn-crowd{
+    height: 46px;
+    border: 1px solid #004d00;
+    color:#004d00;
+}
