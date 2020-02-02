@@ -487,6 +487,14 @@ body {
   }
 }
 
+#podcast{
+  background:#00b300;
+  width: 100vw;
+  height: auto;
+  padding: 70px 0;
+  color:#fff;
+}
+
 #apoie{
   background:#00b300;
   width: 100vw;
@@ -516,4 +524,29 @@ body {
 #staff .members .row > div {
     text-align: center;
     padding-top: 25px;
+}
+
+#podcast {
+    background: #490964;
+}
+
+.podcast-options{
+    display: flex;
+    justify-content: flex-end;   
+}
+
+.spotify-option {
+    width: 10em;
+    margin-right: 15em;
+}
+.itunes-option {
+    width: 10em;
+    margin-right: 10em;
+    margin-left: 2em;
+}
+
+.anchor-option {
+    width: 10em;
+    margin-right: 10em;
+    margin-left: 5em;
 }
