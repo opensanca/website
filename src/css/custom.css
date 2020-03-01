@@ -311,7 +311,10 @@ a:focus {
   line-height: 1.6;
 }
 
-#staff .btn-green{height: 46px;}
+#staff .btn-green{
+    height: 46px; 
+    padding-top: 12px;
+}
 
 #meetup{
   background:#E4F1FE;
@@ -531,7 +534,6 @@ body {
 }
 
 .podcast-options{
-    /* display: flex;        */
     justify-content: flex-end;   
 }
 
