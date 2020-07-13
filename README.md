@@ -5,8 +5,7 @@ Website para divulgar eventos, workshops entre tantas outras sobre o mundo opens
 ```bash
 npm install
 
-
-npm run serve
+npm start
 ```
 
 # problemas futuros:
