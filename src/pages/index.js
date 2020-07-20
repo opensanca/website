@@ -352,7 +352,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="apoie" className="container content-section text-center">
+      <section id="apoie" className="content-section text-center">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
@@ -398,7 +398,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="podcast" className="container text-center">
+      <section id="podcast" className="text-center">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
@@ -459,7 +459,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="parceiro" className="container content-section text-center">
+      <section id="parceiro" className="content-section text-center">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
