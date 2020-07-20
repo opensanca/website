@@ -158,12 +158,17 @@ a:focus {
   vertical-align: middle;
 }
 
+.intro .intro-body .container .row {
+  justify-content: center;
+  text-align: center;
+}
+
 .intro .intro-body .brand-heading {
-  font-size: 40px;
+  font-size: 100px;
 }
 
 .intro .intro-body .intro-text {
-  font-size: 18px;
+  font-size: 26px;
 }
 
 @media (min-width: 768px) {
@@ -194,6 +199,7 @@ a:focus {
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
+  font-weight: 100;
 }
 
 .btn-circle:hover,
@@ -447,6 +453,8 @@ body {
 /** Partners **/
 #partner .row {
   margin-bottom: 30px;
+  justify-content: center;
+  text-align: center;
 }
 
 .partner-logo {
@@ -495,7 +503,7 @@ body {
   background: #00b300;
   width: 100vw;
   height: auto;
-  padding: 70px 0;
+  padding: 70px 0px;
   color: #fff;
 }
 
@@ -527,7 +535,7 @@ body {
   width: 100vw;
   height: auto;
   padding: 70px 0;
-  color: #fff;
+  color: #fff;  
 }
 
 #podcast {
@@ -536,23 +544,18 @@ body {
 
 .podcast-options {
   justify-content: flex-end;
+  display: flex;
 }
 
 .spotify-option {
   width: 10em;
-  margin-right: 15em;
-  margin-left: 5em;
 }
 .itunes-option {
   width: 10em;
-  margin-right: 10em;
-  margin-left: 4em;
 }
 
 .anchor-option {
   width: 10em;
-  margin-right: 10em;
-  margin-left: 5em;
 }
 
 .btn-footer {

@@ -396,7 +396,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="podcast" className="container content-section text-center">
+      <section id="podcast" className="container text-center">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
@@ -406,7 +406,7 @@ const Index = () => {
                 plataforma que você mais curtir e aproveite a viagem!!!
               </p>
             </div>
-            <div className="podcast-options">
+            <div className="podcast-options col-md-12">
               <div className="spotify-option col-sm-4">
                 <div>
                   <a
