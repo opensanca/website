@@ -350,7 +350,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="apoie" className="container content-section text-center">
+      <section id="apoie" className="content-section text-center">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
@@ -396,7 +396,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="podcast" className="container text-center">
+      <section id="podcast" className="text-center">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
@@ -457,7 +457,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="parceiro" className="container content-section text-center">
+      <section id="parceiro" className="content-section text-center">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
@@ -912,7 +912,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="contact" className="container content-section text-center">
+      <section id="contact" className="content-section text-center">
         <div className="row">
           <div className="col-lg-8 col-lg-offset-2">
             <h2>Faça contato!</h2>
