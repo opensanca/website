@@ -139,7 +139,7 @@ const Index = () => {
           <div className="col-lg-12">
             <h2>Sobre</h2>
             <p>
-              Olá, antes de tudo, agradecemos pela sua visita aqui no{" "}
+              Olá, antes de tudo, agradecemos pela sua visita aqui no {" "}
               <a
                 href="https://www.meetup.com/pt-BR/opensanca"
                 target="_blank"
@@ -147,6 +147,7 @@ const Index = () => {
               >
                 OpenSanca
               </a>
+              {" "}
               o objetivo nosso é trazer a cultura dos meetup e realizar reuniões
               e workshop periodicamente no interior paulista (São Carlos,
               Araraquara, Matão, Ibaté), buscamos trazer a tona discussão sobre
