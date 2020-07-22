@@ -65,6 +65,7 @@ a:focus {
   text-transform: uppercase;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #000;
+  height: 50px;
 }
 
 .navbar-custom .navbar-brand {
@@ -88,6 +89,7 @@ a:focus {
 
 .navbar-custom a {
   color: #fff;
+  font-size: 14px;
 }
 
 .navbar-custom .nav li a {
@@ -118,6 +120,11 @@ a:focus {
 
 .navbar-custom .nav li.active a:hover {
   color: #fff;
+}
+
+.navbar-custom .nav li{
+  padding: 10px;
+  font-size: 14px;
 }
 
 @media (min-width: 768px) {
