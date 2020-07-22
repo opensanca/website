@@ -40,75 +40,66 @@ import DaviImage from "../images/davi.jpg"
 const Index = () => {
   return (
     <>
-      <nav className="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div className="container">
-          <div className="navbar-header">
-            <button
-              type="button"
-              className="navbar-toggle"
-              data-toggle="collapse"
-              data-target=".navbar-main-collapse"
-            >
-              <i className="fa fa-bars"></i>
-            </button>
-            <a className="navbar-brand page-scroll" href="#page-top">
-              <img
-                src={LogoImage}
-                alt=""
-                className="img-responsive pull-left"
-                width="15%"
-              />
-              <span className="light">opensanca</span>
-            </a>
-          </div>
+      <nav class="navbar navbar-expand-lg navbar-custom navbar-fixed-top" role="navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i className="fa fa-bars" style={{background: '#fff'}}></i>
+        </button>
+        <a className="navbar-brand page-scroll" href="#page-top">
+          <img
+            src={LogoImage}
+            alt=""
+            className="img-responsive pull-left"
+            width="15%"
+          />
+          <span className="light">opensanca</span>
+        </a>
 
-          <div className="collapse navbar-collapse navbar-right navbar-main-collapse">
-            <ul className="nav navbar-nav">
-              <li>
-                <a className="page-scroll" href="#about">
-                  Sobre
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.meetup.com/opensanca/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Eventos
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://github.com/opensanca"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Projetos
-                </a>
-              </li>
-              <li>
-                <a className="page-scroll" href="#apoie">
-                  Apoie
-                </a>
-              </li>
-              <li>
-                <a className="page-scroll" href="#podcast">
-                  Podcast
-                </a>
-              </li>
-              <li>
-                <a className="page-scroll" href="#parceiro">
-                  Parceiros
-                </a>
-              </li>
-              <li>
-                <a className="page-scroll" href="#contact">
-                  Contato
-                </a>
-              </li>
-            </ul>
-          </div>
+        <div class="collapse navbar-collapse navbar-right navbar-main-collapse" id="navbarSupportedContent">
+        <ul className="nav navbar-nav">
+          <li>
+            <a className="page-scroll" href="#about">
+              Sobre
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.meetup.com/opensanca/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Eventos
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/opensanca"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Projetos
+            </a>
+          </li>
+          <li>
+            <a className="page-scroll" href="#apoie">
+              Apoie
+            </a>
+          </li>
+          <li>
+            <a className="page-scroll" href="#podcast">
+              Podcast
+            </a>
+          </li>
+          <li>
+            <a className="page-scroll" href="#parceiro">
+              Parceiros
+            </a>
+          </li>
+          <li>
+            <a className="page-scroll" href="#contact">
+              Contato
+            </a>
+          </li>
+        </ul>
         </div>
       </nav>
 
@@ -969,7 +960,7 @@ const Index = () => {
               <li>
                 <a href="https://instagram.com/opensanca" class="btn btn-default btn-lg btn-footer" 
                 target="_blank">
-                  <i class="fa fa-instagram fa-fw"></i>
+                  <i className="fa fa-instagram fa-fw"></i>
                   instagram
                 </a>
               </li>
