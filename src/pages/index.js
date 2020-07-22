@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import "@fortawesome/fontawesome-free/css/all.css"
 
 import "../main.css"
+import "../main.js"
 
 import LogoImage from "../images/logo.png"
 import ApoiaseImage from "../images/apoiase.svg"
@@ -137,7 +138,7 @@ const Index = () => {
           <div className="col-lg-12">
             <h2>Sobre</h2>
             <p>
-              Olá, antes de tudo, agradecemos pela sua visita aqui no{" "}
+              Olá, antes de tudo, agradecemos pela sua visita aqui no {" "}
               <a
                 href="https://www.meetup.com/pt-BR/opensanca"
                 target="_blank"
@@ -145,6 +146,7 @@ const Index = () => {
               >
                 OpenSanca
               </a>
+              {" "}
               o objetivo nosso é trazer a cultura dos meetup e realizar reuniões
               e workshop periodicamente no interior paulista (São Carlos,
               Araraquara, Matão, Ibaté), buscamos trazer a tona discussão sobre
@@ -919,12 +921,65 @@ const Index = () => {
             <p>
               <a href="mailto:opensanca@gmail.com">opensanca@gmail.com</a>
             </p>
+            <ul className="list-footer">
+              <li>
+                <a href="https://twitter.com/opensanca" class="btn btn-default btn-lg btn-footer" 
+                target="_blank">
+                  <i class="fa fa-twitter fa-fw"></i>
+                  twitter
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/opensanca" class="btn btn-default btn-lg btn-footer" 
+                target="_blank">
+                  <i class="fa fa-github fa-fw"></i>
+                  github
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/groups/398166953717267/" class="btn btn-default btn-lg btn-footer" 
+                target="_blank">
+                  {/* <i class="fa fa-facebook fa-fw"></i> */}
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+
+                  facebook
+                </a>
+              </li>
+              <li>
+                <a href="https://youtube.com/c/opensanca" class="btn btn-default btn-lg btn-footer" 
+                target="_blank">
+                  <i class="fa fa-youtube fa-fw"></i>
+                  youtube
+                </a>
+              </li>
+              <li>
+                <a href="https://medium.com/opensanca" class="btn btn-default btn-lg btn-footer" 
+                target="_blank">
+                  <i class="fa fa-medium fa-fw"></i>
+                  medium
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/company/opensanca/" class="btn btn-default btn-lg btn-footer" 
+                target="_blank">
+                  <i class="fa fa-linkedin fa-fw"></i>
+                  linkedin
+                </a>
+              </li>
+              <li>
+                <a href="https://instagram.com/opensanca" class="btn btn-default btn-lg btn-footer" 
+                target="_blank">
+                  <i class="fa fa-instagram fa-fw"></i>
+                  instagram
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </section>
 
       <footer>
-        <div className="container text-center" id="openFooter"></div>
+        <div className="container text-center" id="openFooter">Feito com <i class="fa fa-heart"></i> opensanca 2020</div>
       </footer>
     </>
   )

@@ -523,6 +523,7 @@ body {
 
 .img-circle {
   max-height: 200px;
+  border-radius: 100px;
 }
 
 #staff .members .row > div {
@@ -556,6 +557,15 @@ body {
 
 .anchor-option {
   width: 10em;
+}
+
+#contact .list-footer {
+  list-style-type: none;
+  display: flex;
+}
+
+#contact .list-footer > li{
+  margin: 10px;
 }
 
 .btn-footer {
