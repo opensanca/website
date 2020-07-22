@@ -16,29 +16,36 @@ import AnchorFm from "../images/anchor_fm.svg"
 const Index = () => {
   return (
     <Layout>
-      <nav className="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div className="container">
-          <div className="navbar-header">
-            <button
-              type="button"
-              className="navbar-toggle"
-              data-toggle="collapse"
-              data-target=".navbar-main-collapse"
-            >
-              <i className="fa fa-bars"></i>
-            </button>
-            <a className="navbar-brand page-scroll" href="#page-top">
-              <img
-                src={LogoImage}
-                alt=""
-                className="img-responsive pull-left"
-                width="15%"
-              />
-              <span className="light">opensanca</span>
-            </a>
-          </div>
+      <div className="container">
+        <nav
+          className="navbar navbar-expand-lg navbar-custom navbar-fixed-top"
+          role="navigation"
+        >
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i className="fa fa-bars" style={{ background: "#fff" }}></i>
+          </button>
+          <a className="navbar-brand page-scroll" href="#page-top">
+            <img
+              src={LogoImage}
+              alt=""
+              className="img-responsive pull-left"
+              width="15%"
+            />
+            <span className="light">opensanca</span>
+          </a>
 
-          <div className="collapse navbar-collapse navbar-right navbar-main-collapse">
+          <div
+            className="collapse navbar-collapse navbar-right navbar-main-collapse"
+            id="navbarSupportedContent"
+          >
             <ul className="nav navbar-nav">
               <li>
                 <a className="page-scroll" href="#about">
@@ -85,8 +92,8 @@ const Index = () => {
               </li>
             </ul>
           </div>
-        </div>
-      </nav>
+        </nav>
+      </div>
 
       <header className="intro">
         <div className="intro-body">
