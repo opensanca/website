@@ -139,7 +139,7 @@ const Index = () => {
           <div className="col-lg-12">
             <h2>Sobre</h2>
             <p>
-              Olá, antes de tudo, agradecemos pela sua visita aqui no{" "}
+              Olá, antes de tudo, agradecemos pela sua visita aqui no {" "}
               <a
                 href="https://www.meetup.com/pt-BR/opensanca"
                 target="_blank"
@@ -147,6 +147,7 @@ const Index = () => {
               >
                 OpenSanca
               </a>
+              {" "}
               o objetivo nosso é trazer a cultura dos meetup e realizar reuniões
               e workshop periodicamente no interior paulista (São Carlos,
               Araraquara, Matão, Ibaté), buscamos trazer a tona discussão sobre
@@ -352,7 +353,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="apoie" className="container content-section text-center">
+      <section id="apoie" className="content-section text-center">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
@@ -398,7 +399,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="podcast" className="container text-center">
+      <section id="podcast" className="text-center">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
@@ -459,7 +460,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="parceiro" className="container content-section text-center">
+      <section id="parceiro" className="content-section text-center">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
