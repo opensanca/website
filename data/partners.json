@@ -1,0 +1,44 @@
+[
+  {
+    "img": "../data/images/arquivei.png",
+    "name": "Arquivei",
+    "url": "http://www.arquivei.com.br/",
+    "description": ""
+  },
+  {
+    "img": "../data/images/luz.png",
+    "name": "Luz",
+    "url": "http://www.luz-ef.com/",
+    "description": ""
+  },
+  {
+    "img": "../data/images/softbox.png",
+    "name": "LuizaLabs",
+    "url": "https://medium.com/luizalabs/",
+    "description": ""
+  },
+  {
+    "img": "../data/images/logo-monitora.png",
+    "name": "Monitora",
+    "url": "https://monitoratec.com.br/",
+    "description": "Empresa localizada em São Carlos, com mais de 60 colaboradores, todos focados em encontrar soluções para a sua empresa. Nosso desafio é criar, inovar e atender!"
+  },
+  {
+    "img": "../data/images/invillia.png",
+    "name": "Invillia",
+    "url": "https://www.invillia.com/",
+    "description": "Somos uma empresa formada por mais de duzentas pessoas inquietas e comprometidas, incessantes na busca pela inovação e tecnologia."
+  },
+  {
+    "img": "../data/images/logo-fasttrack.png",
+    "name": "Fast Track",
+    "url": "https://ft.ventures/",
+    "description": "Somos uma empresa focada em investir capital financeiro, know-how e relacionamento para desenvolver empresas digitais e modelos de negócios escaláveis."
+  },
+  {
+    "img": "../data/images/logo-serasa.png",
+    "name": "Serasa Experian",
+    "url": "https://www.serasaexperian.com.br",
+    "description": "Na Serasa Experian, desvendamos o poder dos dados para que consumidores e empresas ampliem oportunidades."
+  }
+]

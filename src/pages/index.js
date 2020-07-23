@@ -3,6 +3,7 @@ import React from "react"
 import Layout from "../components/layout/layout"
 import Contact from "../components/contact/contact"
 import Members from "../components/members/members"
+import Partners from "../components/partners/partners"
 
 import LogoImage from "../images/logo.png"
 import ApoiaseImage from "../images/apoiase.svg"
@@ -11,13 +12,6 @@ import PadrimImage from "../images/padrim.png"
 import SpotifyImage from "../images/spotify.svg"
 import ItunesImage from "../images/itunes.svg"
 import AnchorFm from "../images/anchor_fm.svg"
-import ArquiveiImage from "../images/arquivei.png"
-import LuzImage from "../images/luz.png"
-import SoftboxImage from "../images/softbox.png"
-import LogoMonitoraImage from "../images/logo-monitora.png"
-import InvilliaImage from "../images/invillia.png"
-import LogoFasttrackImage from "../images/logo-fasttrack.png"
-import LogoSerasaImage from "../images/logo-serasa.png"
 
 const Index = () => {
   return (
@@ -120,15 +114,14 @@ const Index = () => {
           <div className="col-lg-12">
             <h2>Sobre</h2>
             <p>
-              Olá, antes de tudo, agradecemos pela sua visita aqui no {" "}
+              Olá, antes de tudo, agradecemos pela sua visita aqui no{" "}
               <a
                 href="https://www.meetup.com/pt-BR/opensanca"
                 target="_blank"
                 rel="noreferrer"
               >
                 OpenSanca
-              </a>
-              {" "}
+              </a>{" "}
               o objetivo nosso é trazer a cultura dos meetup e realizar reuniões
               e workshop periodicamente no interior paulista (São Carlos,
               Araraquara, Matão, Ibaté), buscamos trazer a tona discussão sobre
@@ -171,7 +164,10 @@ const Index = () => {
             </a>
             <h3>
               Slack{" "}
-              <img src="https://slack-opensanca.herokuapp.com/badge.svg" alt="Slack badge"/>
+              <img
+                src="https://slack-opensanca.herokuapp.com/badge.svg"
+                alt="Slack badge"
+              />
             </h3>
             <p>
               Tá afim de conversar com uma galera "hibrída" que não importa a
@@ -262,7 +258,7 @@ const Index = () => {
               </a>
             </p>
           </div>
-          <div className="col-md-4 mt-5">
+          <div className="col-md-4">
             <a
               href="https://www.instagram.com/opensanca/"
               target="_blank"
@@ -441,162 +437,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="parceiro" className="content-section text-center">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-12">
-              <h2>Parceiros</h2>
-            </div>
-          </div>
-
-          <div className="row">
-            <div className="col-md-4 col-centered partner-logo">
-              <a
-                href="http://www.arquivei.com.br/"
-                title="Ir para Arquivei"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <figure>
-                  <img
-                    src={ArquiveiImage}
-                    width="235"
-                    title="Arquivei"
-                    alt="Logo Arquivei"
-                  />
-                  <figcaption></figcaption>
-                </figure>
-              </a>
-            </div>
-            <div className="col-md-4 col-centered partner-logo">
-              <a
-                href="https://www.luz-ef.com/"
-                title="Ir para Luz"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <figure>
-                  <img src={LuzImage} width="235" title="Luz" alt="Logo Luz" />
-                  <figcaption></figcaption>
-                </figure>
-              </a>
-            </div>
-          </div>
-
-          <div className="row">
-            <div className="col-md-4 col-centered partner-logo">
-              <a
-                href="https://medium.com/luizalabs"
-                title="Ir para LuizaLabs"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <figure>
-                  <img
-                    src={SoftboxImage}
-                    title="LuizaLabs"
-                    alt="Logo LuizaLabs"
-                  />
-                  <figcaption></figcaption>
-                </figure>
-              </a>
-            </div>
-            <div className="col-md-4 col-centered partner-logo">
-              <a
-                href="http://monitoratec.com.br/"
-                title="Ir para Monitora"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <figure>
-                  <img
-                    src={LogoMonitoraImage}
-                    title="Monitora"
-                    alt="Logo Monitora"
-                  />
-                  <figcaption>
-                    Empresa localizada em São Carlos, com mais de 60
-                    colaboradores, todos focados em encontrar soluções para a
-                    sua empresa. Nosso desafio é criar, inovar e atender!
-                  </figcaption>
-                </figure>
-              </a>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-md-4 col-centered partner-logo">
-              <a
-                href="http://www.Invillia.com"
-                title="Ir para Invillia"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <figure>
-                  <img
-                    src={InvilliaImage}
-                    title="Invillia"
-                    width="235"
-                    alt="Logo Invillia"
-                  />
-                  <figcaption>
-                    Somos uma empresa formada por mais de duzentas pessoas
-                    inquietas e comprometidas, incessantes na busca pela
-                    inovação e tecnologia.
-                  </figcaption>
-                </figure>
-              </a>
-            </div>
-
-            <div className="col-md-4 col-centered partner-logo">
-              <a
-                href="http://ft.ventures"
-                title="Ir para Fast Track"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <figure>
-                  <img
-                    src={LogoFasttrackImage}
-                    width="235"
-                    title="Fast Track"
-                    alt="Logo Fast Track"
-                  />
-                  <figcaption>
-                    Somos uma empresa focada em investir capital financeiro,
-                    know-how e relacionamento para desenvolver empresas digitais
-                    e modelos de negócios escaláveis.
-                  </figcaption>
-                </figure>
-              </a>
-            </div>
-          </div>
-
-          <div className="row">
-            <div className="col-md-4 col-centered partner-logo">
-              <a
-                href="https://www.serasaexperian.com.br"
-                title="Ir para Serasa Experian"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <figure>
-                  <img
-                    src={LogoSerasaImage}
-                    width="235"
-                    title="Serasa Experian"
-                    alt="Logo Serasa Experian"
-                  />
-                  <figcaption>
-                    Na Serasa Experian, desvendamos o poder dos dados para que
-                    consumidores e empresas ampliem oportunidades.
-                  </figcaption>
-                </figure>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-
+      <Partners />
       <Members />
       <Contact />
     </Layout>
