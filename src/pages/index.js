@@ -1,9 +1,6 @@
 import React from "react"
-import "bootstrap/dist/css/bootstrap.min.css"
-import "@fortawesome/fontawesome-free/css/all.css"
 
-import "../main.css"
-
+import Layout from "../components/layout/layout"
 import Contact from "../components/contact/contact"
 import Members from "../components/members/members"
 
@@ -24,7 +21,7 @@ import LogoSerasaImage from "../images/logo-serasa.png"
 
 const Index = () => {
   return (
-    <>
+    <Layout>
       <nav className="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div className="container">
           <div className="navbar-header">
@@ -602,15 +599,7 @@ const Index = () => {
 
       <Members />
       <Contact />
-      <footer>
-        <div className="container text-center" id="openFooter">
-          <p>
-            Feito com <i class="fa fa-heart"></i> opensanca{" "}
-            {new Date().getUTCFullYear()}{" "}
-          </p>
-        </div>
-      </footer>
-    </>
+    </Layout>
   )
 }
 
