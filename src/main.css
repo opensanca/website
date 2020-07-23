@@ -306,7 +306,7 @@ a:focus {
   color: #fff;
 }
 
-#staff img {
+#staff .staff-image{
   border: 3px solid #eee;
   margin-bottom: 7px;
 }
