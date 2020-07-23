@@ -27,5 +27,13 @@ module.exports = {
         icon: `src/images/logo.png`, 
       },
     },
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `data`,
+        path: `${__dirname}/data`,
+      },
+    },
   ],
 }

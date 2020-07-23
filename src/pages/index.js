@@ -4,6 +4,8 @@ import "@fortawesome/fontawesome-free/css/all.css"
 
 import "../main.css"
 
+import Contact from "../components/contact/contact"
+
 import LogoImage from "../images/logo.png"
 import ApoiaseImage from "../images/apoiase.svg"
 import PicpayImage from "../images/picpay.svg"
@@ -912,19 +914,14 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="contact" className="container content-section text-center">
-        <div className="row">
-          <div className="col-lg-8 col-lg-offset-2">
-            <h2>Faça contato!</h2>
-            <p>
-              <a href="mailto:opensanca@gmail.com">opensanca@gmail.com</a>
-            </p>
-          </div>
-        </div>
-      </section>
-
+      <Contact />
       <footer>
-        <div className="container text-center" id="openFooter"></div>
+        <div className="container text-center" id="openFooter">
+          <p>
+            Feito com <i class="fa fa-heart"></i> opensanca{" "}
+            {new Date().getUTCFullYear()}{" "}
+          </p>
+        </div>
       </footer>
     </>
   )
