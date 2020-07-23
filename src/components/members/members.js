@@ -1,13 +1,14 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
+import Member from './member';
 
-const Members = () => {
+const SectionMembers = () => {
   let { activeMembers } = useStaticQuery(graphql`
     query ActiveMembersQuery {
-      activeMembers: allMembersJson(filter: {active: {eq: true}}) {
+      activeMembers: allMembersJson(filter: { active: { eq: true } }) {
         edges {
-          node {
+          member: node {
             name
             company
             url
@@ -41,28 +42,17 @@ const Members = () => {
         </div>
         <div className="members">
           <div className="row">
-            {activeMembers.edges.map(({ node: member }) => (
-              <div className="col-sm-4">
-                <Image
-                  fixed={member.img.childImageSharp.fixed}
-                  className="staff-image img-circle"
-                  alt={member.name}
-                />
-                <h5>
-                  {member.name}
-                  {member.company ? ` @${member.company}` : ""}
-                </h5>
-                <span className="input-group-btn">
-                  <a
-                    href={member.url}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="btn btn-default btn-green"
-                  >
-                    Who?
-                  </a>
-                </span>
-              </div>
+            {activeMembers.edges.map(({ member }) => (
+              <Member
+                img={
+                  <Image
+                    fixed={member.img.childImageSharp.fixed}
+                    className="staff-image img-circle"
+                    alt={member.name}
+                  />
+                }
+                member={member}
+              />
             ))}
           </div>
         </div>
@@ -71,4 +61,4 @@ const Members = () => {
   )
 }
 
-export default Members
+export default SectionMembers
