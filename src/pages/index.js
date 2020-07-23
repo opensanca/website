@@ -916,7 +916,12 @@ const Index = () => {
 
       <Contact />
       <footer>
-        <div className="container text-center" id="openFooter"></div>
+        <div className="container text-center" id="openFooter">
+          <p>
+            Feito com <i class="fa fa-heart"></i> opensanca{" "}
+            {new Date().getUTCFullYear()}{" "}
+          </p>
+        </div>
       </footer>
     </>
   )
