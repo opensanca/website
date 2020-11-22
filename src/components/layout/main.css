@@ -152,12 +152,18 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: #fff;
-  background: url(../../images/boy-macro.jpg) no-repeat bottom center scroll;
+  background: /* top, transparent black, faked with gradient */ 
+        linear-gradient(
+          rgba(0, 0, 0, 0.3), 
+          rgba(0, 0, 0, 0.3)
+        ),
+        url(../../images/header.jpg) no-repeat top center scroll;
   background-color: #000;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
   background-size: cover;
-  -o-background-size: cover;
+}
+
+.intro img {
+  filter: brightness(0.5);
 }
 
 .intro .intro-body {
