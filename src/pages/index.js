@@ -16,11 +16,11 @@ import AnchorFm from "../images/anchor_fm.svg"
 const Index = () => {
   return (
     <Layout>
-      <div className="container">
         <nav
-          className="navbar navbar-expand-lg navbar-custom navbar-fixed-top"
+          className="navbar navbar-expand-lg navbar-custom fixed-top"
           role="navigation"
         >
+      <div className="container">
           <button
             className="navbar-toggler"
             type="button"
@@ -43,10 +43,10 @@ const Index = () => {
           </a>
 
           <div
-            className="collapse navbar-collapse navbar-right navbar-main-collapse"
+            className="collapse navbar-collapse"
             id="navbarSupportedContent"
           >
-            <ul className="nav navbar-nav">
+            <ul className="nav navbar-nav navbar-right ml-auto">
               <li>
                 <a className="page-scroll" href="#about">
                   Sobre
@@ -92,8 +92,8 @@ const Index = () => {
               </li>
             </ul>
           </div>
-        </nav>
       </div>
+        </nav>
 
       <header className="intro">
         <div className="intro-body">
