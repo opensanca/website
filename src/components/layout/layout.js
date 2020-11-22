@@ -5,13 +5,13 @@ import "@fortawesome/fontawesome-free/css/all.css"
 
 import "./main.css"
 
-import Header from "../header/header"
+import Navbar from "../navbar/navbar"
 import Footer from "../footer/footer"
 
 const Layout = ({ children }) => {
   return (
     <>
-      <Header />
+      <Navbar/>
       {children}
       <Footer />
     </>

@@ -5,7 +5,6 @@ import Contact from "../components/contact/contact"
 import Members from "../components/members/members"
 import Partners from "../components/partners/partners"
 
-import LogoImage from "../images/logo.png"
 import ApoiaseImage from "../images/apoiase.svg"
 import PicpayImage from "../images/picpay.svg"
 import PadrimImage from "../images/padrim.png"
@@ -16,85 +15,6 @@ import AnchorFm from "../images/anchor_fm.svg"
 const Index = () => {
   return (
     <Layout>
-        <nav
-          className="navbar navbar-expand-lg navbar-custom fixed-top"
-          role="navigation"
-        >
-      <div className="container">
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <i className="fa fa-bars" style={{ background: "#fff" }}></i>
-          </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
-            <img
-              src={LogoImage}
-              alt=""
-              className="img-responsive pull-left"
-              width="15%"
-            />
-            <span className="light">opensanca</span>
-          </a>
-
-          <div
-            className="collapse navbar-collapse"
-            id="navbarSupportedContent"
-          >
-            <ul className="nav navbar-nav navbar-right ml-auto">
-              <li>
-                <a className="page-scroll" href="#about">
-                  Sobre
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.meetup.com/opensanca/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Eventos
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://github.com/opensanca"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Projetos
-                </a>
-              </li>
-              <li>
-                <a className="page-scroll" href="#apoie">
-                  Apoie
-                </a>
-              </li>
-              <li>
-                <a className="page-scroll" href="#podcast">
-                  Podcast
-                </a>
-              </li>
-              <li>
-                <a className="page-scroll" href="#parceiro">
-                  Parceiros
-                </a>
-              </li>
-              <li>
-                <a className="page-scroll" href="#contact">
-                  Contato
-                </a>
-              </li>
-            </ul>
-          </div>
-      </div>
-        </nav>
-
       <header className="intro">
         <div className="intro-body">
           <div className="container">
