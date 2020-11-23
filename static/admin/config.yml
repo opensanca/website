@@ -1,0 +1,42 @@
+media_folder: "data/images"
+public_folder: "/images"
+publish_mode: editorial_workflow
+
+local_backend: true
+backend:
+  name: github
+  repo: opensanca/website
+  branch: gatsby
+collections:
+  - name: "posts"
+    label: "Posts"
+    folder: "data/posts"
+    create: true
+    fields:
+      - {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Título", name: "title", widget: "string"}
+      - {label: "Data de publicação", name: "date", widget: "datetime"}
+      - {label: "Imagem de destaque", name: "thumbnail", widget: "image"}
+      - {label: "Texto", name: "body", widget: "markdown"}
+
+  - name: "members"
+    label: "Membros"
+    folder: "data/members"
+    extension: "json"
+    create: true
+    fields:
+      - {label: "Ativo", name: "active", widget: "boolean", required: true}
+      - {label: "Name", name: "name", widget: "string", required: true}
+      - {label: "Url", name: "url", widget: "string", required: true}
+      - {label: "Foto", name: "img", widget: "image", required: true}
+      - {label: "Empresa", name: "company", widget: "string"}
+
+  - name: "socials"
+    extension: "json"
+    label: "Mídias sociais"
+    folder: "data/socials"
+    create: true
+    fields:
+      - {label: "Name", name: "name", widget: "string", required: true}
+      - {label: "Url", name: "url", widget: "string", required: true}
+

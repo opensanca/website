@@ -35,5 +35,7 @@ module.exports = {
         path: `${__dirname}/data`,
       },
     },
+    `gatsby-transformer-remark`,
+    `gatsby-plugin-netlify-cms`
   ],
 }
