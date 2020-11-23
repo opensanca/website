@@ -8,13 +8,26 @@ import "./main.css"
 import Navbar from "../navbar/navbar"
 import Footer from "../footer/footer"
 
-const Layout = ({ children }) => {
+const Layout = ({ children, offset }) => {
+  let Offset = () => null
+  if (offset) {
+    Offset = () => <div style={{ paddingTop: 80 }} />
+  }
+
   return (
-    <>
-      <Navbar/>
-      {children}
+    <div
+      style={{
+        display: "flex",
+        height: "100%",
+        minHeight: "100vh",
+        flexDirection: "column",
+      }}
+    >
+      <Navbar />
+      <Offset />
+      <main style={{ flexGrow: 1 }}>{children}</main>
       <Footer />
-    </>
+    </div>
   )
 }
 

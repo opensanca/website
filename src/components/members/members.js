@@ -1,7 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
-import Member from './member';
+import Member from "./member"
 
 const SectionMembers = () => {
   let { activeMembers } = useStaticQuery(graphql`
@@ -42,18 +42,23 @@ const SectionMembers = () => {
         </div>
         <div className="members">
           <div className="row">
-            {activeMembers.edges.sort(({member: a}, {member: b}) => a.name.localeCompare(b.name)).map(({ member }) => (
-              <Member
-                img={
-                  <Image
-                    fixed={member.img.childImageSharp.fixed}
-                    className="staff-image img-circle"
-                    alt={member.name}
-                  />
-                }
-                member={member}
-              />
-            ))}
+            {activeMembers.edges
+              .sort(({ member: a }, { member: b }) =>
+                a.name.localeCompare(b.name)
+              )
+              .map(({ member }, i) => (
+                <Member
+                  key={i}
+                  img={
+                    <Image
+                      fixed={member.img.childImageSharp.fixed}
+                      className="staff-image img-circle"
+                      alt={member.name}
+                    />
+                  }
+                  member={member}
+                />
+              ))}
           </div>
         </div>
       </div>

@@ -23,17 +23,17 @@ const Contact = () => {
           <p>
             <a href="mailto:opensanca@gmail.com">opensanca@gmail.com</a>
           </p>
-          <ul class="list-inline banner-social-buttons">
-            {socials.edges.map(({ node: social }) => (
-              <li className="list-inline-item">
+          <ul className="list-inline banner-social-buttons">
+            {socials.edges.map(({ node: social }, i) => (
+              <li className="list-inline-item" key={i}>
                 <a
                   href={social.url}
                   className="btn btn-default btn-lg btn-footer"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <i class={`fab fa-${social.name} fa-fw`}></i>
-                  <span class="network-name">{social.name}</span>
+                  <i className={`fab fa-${social.name} fa-fw`}></i>
+                  <span className="network-name">{social.name}</span>
                 </a>
               </li>
             ))}

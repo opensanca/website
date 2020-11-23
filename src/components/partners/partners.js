@@ -36,8 +36,8 @@ const Partners = () => {
         <div className="row">
           <div className="col-md-2" />
           <div className="row col-md-8">
-            {partners.edges.map(({ partner }) => (
-              <div className="col-md-6 col-centered partner-logo">
+            {partners.edges.map(({ partner }, i) => (
+              <div key={i} className="col-md-6 col-centered partner-logo">
                 <a
                   href={partner.url}
                   title={`Ir para ${partner.name}`}
