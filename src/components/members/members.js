@@ -42,7 +42,7 @@ const SectionMembers = () => {
         </div>
         <div className="members">
           <div className="row">
-            {activeMembers.edges.map(({ member }) => (
+            {activeMembers.edges.sort(({member: a}, {member: b}) => a.name.localeCompare(b.name)).map(({ member }) => (
               <Member
                 img={
                   <Image

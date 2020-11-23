@@ -12,6 +12,7 @@ const Member = ({ img = null, member }) => {
       {img}
       <h5>
         {member.name}
+        <br />
         {member.company ? ` @${member.company}` : ""}
       </h5>
     </a>
