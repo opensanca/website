@@ -33,7 +33,7 @@ const Header = () => {
         >
           <i className="fa fa-bars" style={{ background: "#fff" }}></i>
         </button>
-        <a className="navbar-brand page-scroll" href="#page-top">
+        <a className="navbar-brand page-scroll" href="/#page-top">
           <img
             src={LogoImage}
             alt=""
@@ -47,7 +47,7 @@ const Header = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="nav navbar-nav navbar-right ml-auto">
             <li>
-              <a className="page-scroll" href="#about">
+              <a className="page-scroll" href="/#about">
                 Sobre
               </a>
             </li>
@@ -70,22 +70,22 @@ const Header = () => {
               </a>
             </li>
             <li>
-              <a className="page-scroll" href="#apoie">
+              <a className="page-scroll" href="/#apoie">
                 Apoie
               </a>
             </li>
             <li>
-              <a className="page-scroll" href="#podcast">
+              <a className="page-scroll" href="/#podcast">
                 Podcast
               </a>
             </li>
             <li>
-              <a className="page-scroll" href="#parceiro">
+              <a className="page-scroll" href="/#parceiro">
                 Parceiros
               </a>
             </li>
             <li>
-              <a className="page-scroll" href="#contact">
+              <a className="page-scroll" href="/#contact">
                 Contato
               </a>
             </li>
