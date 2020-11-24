@@ -3,7 +3,6 @@ body {
   height: 100vh;
   font-family: Lora, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #fff;
-  background-color: #000;
 }
 
 html {
@@ -44,7 +43,7 @@ table {
 }
 
 a {
-  color: #42dca3;
+  color: #D09292;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -305,18 +304,21 @@ a:focus {
 }
 
 #partner {
-  background: #ecf0f1;
+  background: #7A6E6E;
   width: 100vw;
   padding: 30px 0;
   color: #2c3e50;
 }
 
 #staff {
-  background: #6f5499;
+  background: #fff;
   width: 100vw;
   height: auto;
   padding: 30px 0;
-  color: #fff;
+  color: #000;
+}
+#staff h5 {
+  color: #000;
 }
 
 #staff .staff-image{
@@ -344,7 +346,7 @@ a:focus {
 }
 
 #parceiro {
-  background: #34495e;
+  background: #7A6E6E;
   width: 100vw;
   padding: 50px 0;
   color: #22313f;
@@ -390,17 +392,17 @@ a:focus {
 }
 
 .btn-default {
-  border: 1px solid #42dca3;
-  color: #42dca3;
+  border: 1px solid #627A69;
+  color: #627A69;
   background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-  border: 1px solid #42dca3;
+  border: 1px solid #627A69;
   outline: 0;
   color: #000;
-  background-color: #42dca3;
+  background-color: #627A69;
 }
 
 ul.banner-social-buttons {
@@ -513,10 +515,11 @@ body {
 }
 
 #apoie {
-  background: #00b300;
+  background: #7A6E6E;
   width: 100vw;
   height: auto;
   padding: 70px 0px;
+  color: #627A69;
   color: #fff;
 }
 
@@ -524,6 +527,11 @@ body {
   height: 46px;
   border: 1px solid #004d00;
   color: #004d00;
+}
+
+#apoie .col-sm-4:nth-child(1) ,
+#apoie .col-sm-4:nth-child(2) {
+  filter: invert(1);
 }
 
 #apoie img {
@@ -544,16 +552,22 @@ body {
   padding-top: 25px;
 }
 
-#podcast {
-  background: #00b300;
-  width: 100vw;
-  height: auto;
-  padding: 70px 0;
-  color: #fff;  
+#about {
+  background: #fff;
+  color: #000;
 }
 
 #podcast {
-  background: #490964;
+  background: #fff;
+  width: 100vw;
+  height: auto;
+  padding: 70px 0;
+  color: #000;  
+}
+
+#contact,
+footer {
+  background: #000;
 }
 
 .podcast-options {
@@ -576,3 +590,6 @@ body {
   margin-bottom: 10px;
 }
 
+.bg-dark {
+  background-color: #627A69!important;
+}
