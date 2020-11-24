@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react"
 import LogoImage from "../../images/logo.png"
+import { Link } from "gatsby";
 
 const Header = () => {
   const [hasScrolled, setHasScrolled] = useState(false)
@@ -33,7 +34,7 @@ const Header = () => {
         >
           <i className="fa fa-bars" style={{ background: "#fff" }}></i>
         </button>
-        <a className="navbar-brand page-scroll" href="/#page-top">
+        <Link className="navbar-brand page-scroll" to="/#">
           <img
             src={LogoImage}
             alt=""
@@ -42,14 +43,14 @@ const Header = () => {
             style={{ filter: "invert(1)" }}
           />
           <span className="light">opensanca</span>
-        </a>
+        </Link>
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="nav navbar-nav navbar-right ml-auto">
             <li>
-              <a className="page-scroll" href="/#about">
+              <Link className="page-scroll" to="/#about">
                 Sobre
-              </a>
+              </Link>
             </li>
             <li>
               <a
@@ -70,24 +71,24 @@ const Header = () => {
               </a>
             </li>
             <li>
-              <a className="page-scroll" href="/#apoie">
+              <Link className="page-scroll" to="/#apoie">
                 Apoie
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="page-scroll" href="/#podcast">
+              <Link className="page-scroll" to="/#podcast">
                 Podcast
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="page-scroll" href="/#parceiro">
+              <Link className="page-scroll" to="/#parceiro">
                 Parceiros
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="page-scroll" href="/#contact">
+              <Link className="page-scroll" to="/#contact">
                 Contato
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
