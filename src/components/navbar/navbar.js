@@ -44,26 +44,12 @@ const Header = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Eventos
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/opensanca"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Projetos
+                Conteúdo 
               </a>
             </li>
             <li>
               <Link className="page-scroll" to="/#apoie">
-                Apoie
-              </Link>
-            </li>
-            <li>
-              <Link className="page-scroll" to="/#podcast">
-                Podcast
+                Contribua 
               </Link>
             </li>
             <li>
@@ -74,6 +60,11 @@ const Header = () => {
             <li>
               <Link className="page-scroll" to="/#contact">
                 Contato
+              </Link>
+            </li>
+            <li>
+              <Link className="page-scroll" to="/blog">
+                Blog 
               </Link>
             </li>
           </ul>

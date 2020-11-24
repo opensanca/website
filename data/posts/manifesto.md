@@ -1,5 +1,5 @@
 ---
-slug: "manifesto"
+slug: "/manifesto"
 title: "Manifesto"
 date: "2020-07-25"
 thumbnail: "opensanca.jpeg"

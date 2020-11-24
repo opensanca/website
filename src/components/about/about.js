@@ -52,7 +52,7 @@ const About = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-md-4">
+          <div className="col-md-6 offset-md-3">
             <a href="https://slack-opensanca.herokuapp.com/">
               <i className="fab fa-slack fa-5x"></i>
             </a>
