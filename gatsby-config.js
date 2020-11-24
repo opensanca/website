@@ -4,6 +4,7 @@ module.exports = {
     description: `Site oficial da comunidade Opensanca`,
     author: `@opensanca`,
   },
+  pathPrefix: "/opensanca",
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
@@ -24,7 +25,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/logo.png`, 
+        icon: `src/images/logo.png`,
       },
     },
     `gatsby-transformer-json`,
@@ -36,6 +37,6 @@ module.exports = {
       },
     },
     `gatsby-transformer-remark`,
-    `gatsby-plugin-netlify-cms`
+    `gatsby-plugin-netlify-cms`,
   ],
 }

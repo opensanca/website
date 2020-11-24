@@ -1,25 +1,11 @@
-import React, { useEffect, useState } from "react"
+import React from "react"
 import LogoImage from "../../images/logo.png"
 import { Link } from "gatsby";
 
 const Header = () => {
-  const [hasScrolled, setHasScrolled] = useState(false)
-
-  const scroll = (e) => {
-    setHasScrolled(window.scrollY > 0)
-  }
-
-  useEffect(() => {
-    window.addEventListener("scroll", scroll)
-
-    return () => {
-      window.removeEventListener("scroll", scroll);
-    };
-  }, [])
-
   return (
     <nav
-      className={`navbar navbar-expand-lg navbar-custom fixed-top ${hasScrolled ? "bg-dark" : ""}`}
+      className="navbar navbar-expand-lg navbar-custom fixed-top bg-dark"
       role="navigation"
     >
       <div className="container">
