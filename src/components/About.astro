@@ -1,187 +1,127 @@
+---
+import Slack from '../components/icons/Slack.astro'
+import Medium from '../components/icons/Medium.astro'
+import Facebook from '../components/icons/Facebook.astro'
+import Meetup from '../components/icons/Meetup.astro'
+import Linkedin from '../components/icons/Linkedin.astro'
+import Youtube from '../components/icons/Youtube.astro'
+import Instagram from '../components/icons/Instagram.astro'
 
-<section id="about" class="container content-section text-center">
-  <div class="row">
-    <div class="col-lg-12">
-      <h2>Sobre</h2>
-      <p>
+---
+
+<section id="about" class="py-16 px-4 text-center bg-[#67796b] text-white">
+  <div class="max-w-7xl mx-auto">
+    <div class="mb-12">
+      <h2 class="text-4xl font-bold mb-6">Sobre</h2>
+      <p class="text-lg leading-relaxed">
         Olá, antes de tudo, agradecemos pela sua visita aqui no
-        <a href="https://www.meetup.com/pt-BR/opensanca" target="_blank"
-          >OpenSanca</a
-        >
+        <a href="https://www.meetup.com/pt-BR/opensanca" target="_blank" class="text-primary hover:underline">OpenSanca</a>
         o objetivo nosso é trazer a cultura dos meetup e realizar reuniões e
         workshop periodicamente no interior paulista (São Carlos,
         Araraquara, Matão, Ibaté), buscamos trazer a tona discussão sobre
         tecnologias Open Source, e esperamos que esses encontros sejam além
         de tecnologias, esperamos que ele forneça apoio em diversos
         segmentos de qualquer área independente da tecnologia, afinal a
-        tecnologia é um meio e não um fim! ;) <br />
-        <br />
+        tecnologia é um meio e não um fim! ;) <br /><br />
 
         Seja parte disso e ajude a comunidade, não importa se você é
-        iniciante, ninja-samurai ou goku das profundezas do Egeu. <br />
-        <br />
+        iniciante, ninja-samurai ou goku das profundezas do Egeu. <br /><br />
 
         Afinal, o que a comunidade espera de você
-        <a href="#">desenvolvedor</a>? Quando você ouve a palavra
-        <a href="#">contribua</a>, espera-se que possa ir além de githubs,
+        <a href="#" class="text-primary hover:underline">desenvolvedor</a>? Quando você ouve a palavra
+        <a href="#" class="text-primary hover:underline">contribua</a>, espera-se que possa ir além de githubs,
         palestras, workshops entre outros. Por isto você é uma peça
-        importante no mundo, contribua! <br />
-        <br />
+        importante no mundo, contribua! <br /><br />
 
         Queremos fazer um bate papo no qual todos possam colaborar e
         fomentar um networking com empresas, desenvolvedores, comunidades
         acadêmicas. <br /><br />
 
         Faça parte do
-        <a href="https://www.meetup.com/pt-BR/opensanca/" target="_blank"
-          >OpenSanca</a
-        >
+        <a href="https://www.meetup.com/pt-BR/opensanca/" target="_blank" class="text-primary hover:underline">OpenSanca</a>
         ele é livre e sempre será, traga seus amigos, independente da
         carreira que segue, aqui oferecemos workshops, palestras, churrasco,
         e tudo aquilo que acharmos que é bacana para você! Entre, agora!
       </p>
     </div>
-  </div>
-  <div class="row">
-    <div class="col-md-4">
-      <a
-        href="https://join.slack.com/t/opensanca/shared_invite/zt-ifdrhlr9-Qv9kQH_pQvp~b8jw1QZSDQ"
-        ><i class="fa fa-slack fa-5x"></i
-      ></a>
-      <h3>
-        Slack <img src="https://slack-opensanca.herokuapp.com/badge.svg" />
-      </h3>
-      <p>
-        Tá afim de conversar com uma galera "hibrída" que não importa a
-        linguagem, seja Java, Ruby, Python, Swift, não acredita que tem tudo
-        isso misturado? Crie seu networking, agora mesmo! Tem dúvidas sobre
-        alguma lib ou tecnologia? <br />
-        <br />
-        <a
-          href="https://join.slack.com/t/opensanca/shared_invite/zt-ifdrhlr9-Qv9kQH_pQvp~b8jw1QZSDQ"
-          target="_blank"
-          class="btn btn-default btn-lg"
-          >Quero entrar!</a
-        >
-      </p>
-    </div>
 
-    <div class="col-md-4">
-      <a
-        href="https://www.facebook.com/groups/398166953717267/"
-        target="_blank"
-      >
-        <i class="fa fa-facebook fa-5x"></i
-      ></a>
-      <h3>Facebook</h3>
-      <p>
-        Para facilitar a comunicação e a veiculação de informações, além da
-        plataforma do Meetup, nos divulgamos nossos workshops, vagas,
-        sorteios entre outros mimos bacanas pelo nosso grupo do facebook,
-        sendo assim! Não fique de fora! ;) <br />
-        <br />
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+      <div class="flex flex-col items-center text-center">
+        <a href="https://join.slack.com/t/opensanca/shared_invite/zt-ifdrhlr9-Qv9kQH_pQvp~b8jw1QZSDQ" target="_blank">
+          <Slack className="size-8"/>
+        </a>
+        <h3 class="text-2xl font-semibold mt-4">Slack</h3>
+        <p class="mt-4 text-base">
+          Converse com uma galera "hibrída" que não importa a linguagem, seja Java, Ruby, Python, Swift. Crie seu networking, tire dúvidas!
+        </p>
+        <a href="https://join.slack.com/t/opensanca/shared_invite/zt-ifdrhlr9-Qv9kQH_pQvp~b8jw1QZSDQ" target="_blank" class="btn btn-outline mt-4">Quero entrar!</a>
+      </div>
 
-        <a
-          href="https://www.facebook.com/groups/398166953717267/"
-          target="_blank"
-          class="btn btn-default btn-lg"
-          >PartiuuuUU!</a
-        >
-      </p>
-    </div>
+      <div class="flex flex-col items-center text-center">
+        <a href="https://www.facebook.com/groups/398166953717267/" target="_blank">
+          <Facebook className="size-8"/>
+        </a>
+        <h3 class="text-2xl font-semibold mt-4">Facebook</h3>
+        <p class="mt-4 text-base">
+          Divulgamos nossos workshops, vagas e sorteios no grupo. Não fique de fora!
+        </p>
+        <a href="https://www.facebook.com/groups/398166953717267/" target="_blank" class="btn btn-outline mt-4">PartiuuuUU!</a>
+      </div>
 
-    <div class="col-md-4">
-      <a href="https://www.meetup.com/pt-BR/opensanca" target="_blank">
-        <i class="fa fa-star fa-5x"></i>
-      </a>
-      <h3>Meetup</h3>
-      <p>
-        Ficou interessado nos workshops e palestras, como você vai fazer
-        para participar? Entre no nosso canal do meetup, que você irá
-        receber um e-mail nosso de cada evento que criarmos, já estamos com
-        programação agendada até junho. <br />
-        <br />
-        <a
-          href="https://www.meetup.com/pt-BR/opensanca/"
-          target="_blank"
-          class="btn btn-default btn-lg"
-          >Cola Aêêêê!</a
-        >
-      </p>
-    </div>
+      <div class="flex flex-col items-center text-center">
+        <a href="https://www.meetup.com/pt-BR/opensanca" target="_blank">
+          <Meetup className="size-8" />
+        </a>
+        <h3 class="text-2xl font-semibold mt-4">Meetup</h3>
+        <p class="mt-4 text-base">
+          Receba notificações de eventos e participe da nossa programação já agendada.
+        </p>
+        <a href="https://www.meetup.com/pt-BR/opensanca/" target="_blank" class="btn btn-outline mt-4">Cola Aêêê!</a>
+      </div>
 
-    <div class="col-md-4">
-      <a href="https://www.youtube.com/c/opensanca" target="_blank">
-        <i class="fa fa-youtube-play fa-5x"></i>
-      </a>
-      <h3>YouTube</h3>
-      <p>
-        O QUEEEE? Não pode ir no nosso último encontro? Não tem problema, se
-        inscreva no nosso canal e fique por dentro.
-        <br />
-        <br />
-        <a
-          href="https://www.youtube.com/c/opensanca"
-          target="_blank"
-          class="btn btn-default btn-lg"
-          >Bora Assistir!</a
-        >
-      </p>
-    </div>
-    <div class="col-md-4 mt-5">
-      <a href="https://www.instagram.com/opensanca/" target="_blank">
-        <i class="fa fa-instagram fa-5x"></i>
-      </a>
-      <h3>Instagram</h3>
-      <p>
-        Para tudo! Ainda não segue a gente? Segue a gente ai e fique por
-        dentro das nossas histórias e nossas publicações!
-        <br />
-        <br />
-        <a
-          href="https://www.instagram.com/opensanca/"
-          target="_blank"
-          class="btn btn-default btn-lg"
-          >Segue Aêêêê!</a
-        >
-      </p>
-    </div>
-    <div class="col-md-4">
-      <a href="https://medium.com/opensanca" target="_blank">
-        <i class="fab fa fa-medium fa-5x"></i>
-      </a>
-      <h3>Medium</h3>
-      <p>
-        Quer ler alguns dos nossos artigos? Segue nosso Medium e fique por
-        dentro das novas atualizações para ler no busão.
-        <br />
-        <br />
-        <a
-          href="https://medium.com/opensanca"
-          target="_blank"
-          class="btn btn-default btn-lg"
-          >Bora Ler!</a
-        >
-      </p>
-    </div>
-    <div class="col-md-4">
-      <a href="https://www.linkedin.com/company/opensanca/" target="_blank">
-        <i class="fa fa-linkedin-square fa-5x"></i>
-      </a>
-      <h3>Linkedin</h3>
-      <p>
-        Conecte-se ao nosso perfil e fique por dentro da nossa comunidade e
-        faça conexão com os membros também.
-        <br />
-        <br />
-        <a
-          href="https://www.linkedin.com/company/opensanca/"
-          target="_blank"
-          class="btn btn-default btn-lg"
-          >Bora Conectar!</a
-        >
-      </p>
+      <div class="flex flex-col items-center text-center">
+        <a href="https://www.youtube.com/c/opensanca" target="_blank">
+          <Youtube className="size-8"/>
+        </a>
+        <h3 class="text-2xl font-semibold mt-4">YouTube</h3>
+        <p class="mt-4 text-base">
+          Perdeu algum evento? Assista no nosso canal e fique por dentro.
+        </p>
+        <a href="https://www.youtube.com/c/opensanca" target="_blank" class="btn btn-outline mt-4">Bora Assistir!</a>
+      </div>
+
+      <div class="flex flex-col items-center text-center">
+        <a href="https://www.instagram.com/opensanca/" target="_blank">
+          <Instagram className="size-8"/>
+        </a>
+        <h3 class="text-2xl font-semibold mt-4">Instagram</h3>
+        <p class="mt-4 text-base">
+          Siga a gente para acompanhar nossas histórias e novidades!
+        </p>
+        <a href="https://www.instagram.com/opensanca/" target="_blank" class="btn btn-outline mt-4">Segue Aêêê!</a>
+      </div>
+
+      <div class="flex flex-col items-center text-center">
+        <a href="https://medium.com/opensanca" target="_blank">
+          <Medium className="size-8"/>
+        </a>
+        <h3 class="text-2xl font-semibold mt-4">Medium</h3>
+        <p class="mt-4 text-base">
+          Leia nossos artigos e atualizações direto do Medium.
+        </p>
+        <a href="https://medium.com/opensanca" target="_blank" class="btn btn-outline mt-4">Bora Ler!</a>
+      </div>
+
+      <div class="flex flex-col items-center text-center">
+        <a href="https://www.linkedin.com/company/opensanca/" target="_blank">
+          <Linkedin className="size-8"/>
+        </a>
+        <h3 class="text-2xl font-semibold mt-4">Linkedin</h3>
+        <p class="mt-4 text-base">
+          Conecte-se com nossa comunidade e membros pelo LinkedIn.
+        </p>
+        <a href="https://www.linkedin.com/company/opensanca/" target="_blank" class="btn btn-outline mt-4">Bora Conectar!</a>
+      </div>
     </div>
   </div>
 </section>
-
