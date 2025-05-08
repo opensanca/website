@@ -1,7 +1,5 @@
 ---
-import { Image } from 'astro:assets';
-import LogoImg from '../assets/logo.png'; // Image is 1600x900
-
+import Opensanca from '../components/icons/Opensanca.astro'
 import Bars from '../components/icons/Bars.astro'
 ---
 
@@ -11,7 +9,7 @@ import Bars from '../components/icons/Bars.astro'
       <!-- Logo and brand -->
       <div class="flex items-center gap-2">
         <a href="#page-top" class="flex items-center gap-2">
-          <Image src={LogoImg} alt="opensanca logo" class="w-12 h-auto invert" />
+          <Opensanca className="size-8" />
           <span class="font-light text-xl">Opensanca</span>
         </a>
       </div>
