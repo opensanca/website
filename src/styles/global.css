@@ -2,6 +2,7 @@
 @plugin "daisyui" {
   themes: light --default, dark --prefersdark;
 }
+@plugin "@tailwindcss/typography";
 
 body {
   font-family: 'Raleway Variable', sans-serif;
