@@ -7,7 +7,7 @@ opensource e a vida ativa de TI em sancharles city!
 
 O site foi desenvolvido usando Astro.
 
-## Intalação
+## Instalação
 
 ```bash
 npm install
