@@ -1,0 +1,37 @@
+---
+import Spotify from '../components/icons/Spotify.astro'
+import Itunes from '../components/icons/Itunes.astro'
+import Anchorfm from '../components/icons/Anchorfm.astro'
+---
+
+<section id="podcast" class="max-w-7xl mx-auto py-16 px-4 text-center">
+  <div>
+    <h2 class="text-4xl font-bold mb-4">Escute onde quiser!</h2>
+    <p class="text-lg mb-12">
+      Tá no ônibus e não sabe o que escutar? Escute o nosso podcast na plataforma que você mais curtir e aproveite a viagem!!!
+    </p>
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 items-center justify-center">
+      <a
+        href="https://open.spotify.com/show/1CtIJ3aoBNjPytImxFcBhv"
+        target="_blank"
+        class="hover:scale-105 transition-transform duration-300 flex justify-center"
+      >
+        <Spotify className="size-24" />
+      </a>
+      <a
+        href="https://podcasts.apple.com/us/podcast/opensanca-podcast/id1235919084"
+        target="_blank"
+        class="hover:scale-105 transition-transform duration-300 flex justify-center"
+      >
+        <Itunes className="size-24" />
+      </a>
+      <a
+        href="https://anchor.fm/opensanca"
+        target="_blank"
+        class="hover:scale-105 transition-transform duration-300 flex justify-center"
+      >
+        <Anchorfm className="size-24" />
+      </a>
+    </div>
+  </div>
+</section>

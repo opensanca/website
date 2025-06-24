@@ -1,0 +1,29 @@
+---
+import { Image } from 'astro:assets';
+import HeroImg from '../assets/devconf.jpeg'; // Image is 1600x900
+
+import DoubleChevronDown from '../components/icons/DoubleChevronDown.astro'
+---
+<header class="relative min-h-screen flex items-center justify-center text-center px-4 overflow-hidden">
+  <!-- Background image -->
+  <Image
+    src={HeroImg}
+    alt="Foto do devconf 2023"
+    class="absolute inset-0 w-full h-full object-cover z-0"
+  />
+
+  <!-- Overlay for better text contrast -->
+  <div class="absolute inset-0 bg-black opacity-50 z-0"></div>
+
+  <!-- Hero content -->
+  <div class="relative z-10 max-w-2xl text-white">
+    <h1 class="text-5xl font-bold mb-6">Opensanca</h1>
+    <p class="text-lg leading-relaxed mb-8">
+      Seja bem vindo! Somos um grupo que organiza Meetups sobre
+      Open Source, inovação, tecnologia e happy hour!<br />Faça parte!
+    </p>
+    <a href="#about" class="btn btn-circle btn-outline animate-bounce items-center justify-center">
+      <DoubleChevronDown className="size-7" />
+    </a>
+  </div>
+</header>

@@ -1,0 +1,91 @@
+---
+import Xwitter from '../components/icons/Xwitter.astro'
+import Facebook from '../components/icons/Facebook.astro'
+import Youtube from '../components/icons/Youtube.astro'
+import Github from '../components/icons/Github.astro'
+import Instagram from '../components/icons/Instagram.astro'
+import Medium from '../components/icons/Medium.astro'
+import Meetup from '../components/icons/Meetup.astro'
+import Linkedin from '../components/icons/Linkedin.astro'
+
+const today = new Date();
+---
+
+<footer class="justify-center py-4">
+	<ul class="flex flex-wrap justify-center gap-4">
+		<li>
+			<a
+				href="https://www.meetup.com/opensanca/"
+				class="btn btn-outline"
+				target="_blank"
+			>
+				<Meetup className="size-6" /> Meetup
+			</a>
+		</li>
+		<li>
+			<a
+				href="https://www.linkedin.com/company/opensanca/"
+				class="btn btn-outline"
+				target="_blank"
+			>
+				<Linkedin className="size-5" /> Linkedin
+			</a>
+		</li>
+		<li>
+			<a
+				href="https://twitter.com/opensanca"
+				class="btn btn-outline"
+				target="_blank"
+			>
+				<Xwitter className="size-5" /> Xwitter
+			</a>
+		</li>
+		<li>
+			<a
+				href="https://github.com/opensanca"
+				class="btn btn-outline"
+				target="_blank"
+			>
+				<Github className="size-6" /> Github
+			</a>
+		</li>
+		<li>
+			<a
+				href="https://www.facebook.com/groups/398166953717267/"
+				class="btn btn-outline"
+				target="_blank"
+			>
+				<Facebook className="size-6" /> Facebook
+			</a>
+		</li>
+		<li>
+			<a
+				href="https://www.youtube.com/c/opensanca"
+				class="btn btn-outline"
+				target="_blank"
+			>
+				<Youtube className="size-6" /> Youtube
+			</a>
+		</li>
+		<li>
+			<a
+				href="https://medium.com/opensanca"
+				class="btn btn-outline"
+				target="_blank"
+			>
+				<Medium className="size-6" /> Medium
+			</a>
+		</li>
+		<li>
+			<a
+				href="https://www.instagram.com/opensanca/"
+				class="btn btn-outline"
+				target="_blank"
+			>
+				<Instagram className="size-6" /> Instagram
+			</a>
+		</li>
+	</ul>
+
+	<p class="text-center py-4">Feito com ❤️ Opensanca &copy; {today.getFullYear()}</p>
+</footer>
