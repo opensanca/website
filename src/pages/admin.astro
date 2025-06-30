@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="robots" content="noindex" />
+		<link href="/admin/config.yml" type="text/yaml" rel="cms-config-url" />
+		<title>Content Manager</title>
+	</head>
+	<body>
+		<!-- Dashboard script-->
+		<script is:inline src="https://unpkg.com/decap-cms@^3.4.0/dist/decap-cms.js"></script>
+
+		<!-- CSS in preview panel -->
+		<script is:inline>
+			// @ts-expect-error CMS is defined globally
+			// eslint-disable-next-line
+			CMS.registerPreviewStyle("/blog.css");
+
+      var PostPreview = createClass({
+        render: function() {
+          var entry = this.props.entry;
+          var image = entry.getIn(['data', 'heroImage']);
+          var bg = this.props.getAsset(image);
+
+          return h('main', {}, 
+            h('article', {className: ""},
+              image 
+                ? h('div', {className:"hero-image"}, 
+                    h('img', {src: bg.toString(), style: {width: "100%"}}),
+                ) 
+              : null,
+              h('div', {className: "date"}, entry.getIn(['data', 'pubDate'])),
+              h('h1', {}, entry.getIn(['data', 'title'])),
+              h('div', {"className": "prose"}, this.props.widgetFor('body'))
+            )
+          );
+        }
+      });
+
+      CMS.registerPreviewTemplate("blog", PostPreview);
+		</script>
+	</body>
+</html>
